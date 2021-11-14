@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-image: url("images/landing-background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.bg ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: #333333;
+  }
+
+.bg li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.bg li{
+    float: left;
+}
+
+.bg li a:hover {
+    background-color: #111111;
+  }
