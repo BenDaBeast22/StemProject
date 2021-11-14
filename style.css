@@ -1,0 +1,29 @@
+nav {
+    width: 100vw;
+    display: block;
+    background-color: skyblue;
+    padding: 2vw;
+}
+.navItem a{/*nav list link text*/
+    text-decoration: none;
+    /*display: inline;*/
+    padding: 2vw;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navItem a:hover{
+    background-color: springgreen;
+}
+.navList{
+    margin:0;
+    padding: 0;
+    display: flex;
+}
+body{
+    margin: 0;
+} 
+.navItem{
+    list-style-type: none;
+    /*margin: 0 2vw;*/
+    font-size: 3vh;
+}
